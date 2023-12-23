@@ -1,0 +1,103 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+body {
+   background: url(./third.jpg) repeat center center/cover;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: #ffffff;
+   font-size: 15px;
+   line-height: 1.5;
+}
+
+.portfolio .cv {
+   color: black;
+   text-decoration: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul {
+   list-style: none;
+}
+
+hr {
+   background-color: rgb(111, 13, 13);
+   width: 10%;
+   color: blue;
+}
+
+.container {
+   max-width: 1100px;
+   height: 90%;
+   margin: auto;
+}
+
+.main-nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.main-nav .logo {
+   width: 110px;
+   border: 2px solid red;
+}
+
+a {
+   color: #ffffff;
+}
+
+.main-nav ul li {
+   display: flex;
+   margin: 20px;
+   padding: 10px;
+}
+
+.intro {
+   /* background-color: black; */
+   margin: auto;
+   padding: 10px;
+   width: 50%;
+   text-align: center;
+   color: rgb(11, 11, 11);
+}
+
+.bio {
+   margin: auto;
+   padding: 20px;
+   margin-bottom: 500px;
+}
+
+.portfolio {
+   margin-bottom: 600px;
+}
+
+.portfolio a {
+   color: red;
+   font-size: xx-large;
+   font-weight: 600;
+   text-decoration: none;
+
+}
+
+.elevator-pitch {
+   padding: 20px;
+   margin-bottom: 200px;
+}
+
+video {
+   width: 50%;
+   padding: -20px;
+   margin: auto;
+   border: 20px solid rgb(13, 1, 1);
+}
+
+source {
+   width: 100%;
+}
